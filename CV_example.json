@@ -1,0 +1,250 @@
+{
+	"img":{
+		"mode":"RGB",
+		"format":"PNG",
+		"main_color_hex":"31337d"
+	},
+	"font_paths":{
+		"regular":"assets/fonts/RobotoAwesome-Regular.ttf",
+		"italic":"assets/fonts/Roboto-RegularItalic.ttf",
+		"medium":"assets/fonts/Roboto-Medium.ttf"
+	},
+	"top_triangle":{
+		"name_title":{
+			"name":"MICHELE LO RUSSO",
+			"title":"Software Engineer",
+			"title_align":"center"
+		},
+		"photo":{
+			"path":"assets/images/photo.png"
+		},
+		"contact_info":{
+			"align":"right",
+			"info":[
+				"  www.linkedin.com/in/example",
+				"  the.worldly.monkey@gmail.com",
+				"  +1 234-567-8901",
+				"  City, Country"
+			],
+			"links":[
+				"https://www.linkedin.com/in/example",
+				"mailto:the.worldly.monkey@gmail.com",
+				"tel:0012345678901",
+				"https://www.google.com/maps/place/"
+			]
+		}
+	},
+	"central_stripe":{
+		"column_left":{
+			"header":"SOFT SKILLS",
+			"items":[
+				{
+					"img_path":"assets/icons/fast_learner.png",
+					"text":"Fast learner"
+				},
+				{
+					"img_path":"assets/icons/creative.png",
+					"text":"Creative"
+				},
+				{
+					"img_path":"assets/icons/open-minded.png",
+					"text":"Open-minded"
+				},
+				{
+					"img_path":"assets/icons/humble.png",
+					"text":"Humble"
+				},
+				{
+					"img_path":"assets/icons/team_player.png",
+					"text":"Team player"
+				}
+			],
+			"more_link":"https://more.about.my.soft.skills.com"
+		},
+		"column_center":{
+			"header":"TECH SKILLS",
+			"items":[
+				{
+					"img_path":"assets/logos/python.png",
+					"name":"Python",
+					"level":"90%",
+					"tags":[
+						"data analysis",
+						"image processing",
+						"artificial intelligence",
+						"machine learning"
+					]
+				},
+				{
+					"img_path":"assets/logos/js.png",
+					"name":"JavaScript",
+					"level":"8/10",
+					"tags":[
+						"node.js",
+						"mongodb",
+						"express",
+						"rest api",
+						"vue.js",
+						"full stack",
+						"responsive design"
+					]
+				},
+				{
+					"img_path":"assets/logos/terminal.png",
+					"name":"System Engineering",
+					"level":".7",
+					"tags":[
+						"unix",
+						"shell",
+						"ssh",
+						"git",
+						"devops",
+						"docker",
+						"kubernetes",
+						"cloud services"
+					]
+				},
+				{
+					"img_path":"assets/logos/android.png",
+					"name":"Mobile Development",
+					"level":0.6,
+					"tags":[
+						"android",
+						"rest client",
+						"location api",
+						"iot",
+						"mqtt",
+						"ble",
+						"nfc",
+						"xamarin",
+						"forms"
+					]
+				}
+			],
+			"more_link":"https://more.about.my.tech.skills.com"
+		},
+		"column_right":{
+			"header":"CODE GYMS",
+			"items":[
+				{
+					"bg_color_hex":"f00",
+					"name":"Company 1",
+					"period_span":"04/2018 – now",
+					"flag_paths":[
+						"assets/flags/jp.png"
+					],
+					"logo_paths":[
+						"assets/logos/python.png",
+						"assets/logos/terminal.png",
+						"assets/logos/js.png",
+						"assets/logos/vue.png"
+					]
+				},
+				{
+					"bg_color_hex":"195647",
+					"name":"Company 2",
+					"period_span":"05/2017 – 03/2018",
+					"flag_paths":[
+						"assets/flags/de.png",
+						"assets/flags/it.png"
+					],
+					"logo_paths":[
+						"assets/logos/js.png",
+						"assets/logos/terminal.png",
+						"assets/logos/android.png",
+						"assets/logos/mqtt.png"
+					]
+				},
+				{
+					"bg_color_hex":"858587",
+					"name":"Company 3",
+					"period_span":"09/2016 – 04/2017",
+					"flag_paths":[
+						"assets/flags/it.png"
+					],
+					"logo_paths":[
+						"assets/logos/js.png",
+						"assets/logos/terminal.png",
+						"assets/logos/android.png",
+						"assets/logos/mqtt.png"
+					]
+				},
+				{
+					"bg_color_hex":"6785c1",
+					"name":"Company 4",
+					"period_span":"06/2015 – 08/2016",
+					"flag_paths":[
+						"assets/flags/jp.png",
+						"assets/flags/it.png"
+					],
+					"logo_paths":[
+						"assets/logos/android.png",
+						"assets/logos/xamarin.png",
+						"assets/logos/wp.png",
+						"assets/logos/js.png"
+					]
+				}
+			],
+			"more_link":"https://more.about.my.work.experience.com"
+		},
+		"more_img_path":"assets/icons/more.png"
+	},
+	"bottom_triangle":{
+		"languages":{
+			"lang_header":"LANGUAGES",
+			"lang_colors_hex":[
+				"f00",
+				"f26522",
+				"007236",
+				"39b54a"
+			],
+			"lang_captions":[
+				"Native",
+				"Near native",
+				"Business level",
+				"Basic"
+			],
+			"lang_levels":[
+				{
+					"iso639_1":"it",
+					"level":0
+				},
+				{
+					"iso639_1":"en",
+					"level":1
+				},
+				{
+					"iso639_1":"ja",
+					"level":2
+				},
+				{
+					"iso639_1":"es",
+					"level":3
+				},
+				{
+					"iso639_1":"de",
+					"level":3
+				}
+			]
+		},
+		"education":{
+			"edu_header":"EDUCATION",
+			"items":[
+				{
+					"logo_path":"assets/logos/edu_generic_logo.png",
+					"school_name":"Example University",
+					"course_name":"MSc Example Degree",
+					"final_score":"Distinction",
+					"period_span":"10/2012 – 09/2014"
+				},
+				{
+					"logo_path":"assets/logos/edu_generic_logo.png",
+					"school_name":"Example University",
+					"course_name":"BSc Example Degree",
+					"final_score":"Distinction",
+					"period_span":"10/2009 – 09/2012"
+				}
+			]
+		}
+	}
+}
